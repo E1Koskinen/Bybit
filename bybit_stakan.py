@@ -81,7 +81,9 @@ if __name__ == "__main__":
     ws = websocket.WebSocketApp(bybit_api_url, on_message=bybit_on_message, on_error=bybit_on_error, on_close=bybit_on_close)
     ws.on_open = bybit_on_open
 
+    print()
     print("Websocket opened")
+    print("****************")
     print()
     
     # start checking sell orders amount in background thread
