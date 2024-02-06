@@ -83,6 +83,7 @@ if __name__ == "__main__":
 
     print()
     print("------","*"*30,"------")
+    print()
     print("Websocket opened")
     print("****************")
     print()
