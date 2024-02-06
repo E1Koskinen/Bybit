@@ -82,6 +82,7 @@ if __name__ == "__main__":
     ws.on_open = bybit_on_open
 
     print()
+    print("------","*"*30,"------")
     print("Websocket opened")
     print("****************")
     print()
