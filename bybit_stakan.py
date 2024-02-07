@@ -87,6 +87,8 @@ if __name__ == "__main__":
     print("Websocket opened")
     print("****************")
     print()
+    print('New print just for test')
+    print()
     
     # start checking sell orders amount in background thread
     t = threading.Thread(target=pingBybitInBackground, kwargs={'ws': ws})
