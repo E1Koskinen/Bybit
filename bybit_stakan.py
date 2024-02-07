@@ -2,7 +2,7 @@ import json
 import websocket
 import threading
 import time
-
+лрплраоврлвладаадополп
 TRADE_PAIR = 'BTCUSDT'
 
 
